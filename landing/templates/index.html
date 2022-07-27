@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block index %}
+	<!-- карусель -->
+{% include 'carusel.html'%}
+  	<!-- Цены -->
+{% include 'price.html'%}
+  	<!-- форма -->
+  	<section>
+  		<div class="container class_form">
+  			<h1 class="text-3">Оставь заявку и получи услугу</h1>
+  			<div class="row justify-content-center">
+  			<form action="" method="" style="width: 50%;">
+			  <div class="form-group row">
+			    <label for="inputEmail3" class="col-sm-2 col-form-label">Имя</label><br>
+			      <input type="text" class="form-control" name="name">
+			    <div class="">
+			    </div>
+			  </div>
+			  <div class="form-group row">
+			    <label for="inputEmail3" class="col-sm-2 col-form-label">Телефон</label><br>
+			      <input type="text" class="form-control" name="phone">
+			    <div class="">
+			    </div>
+			  </div>
+			  <div style="float: right;" class="form-group row">
+			      <button type="submit" class="btn btn-success">ОСТАВИТЬ ЗАЯВКУ</button>
+			  </div>
+			</form>
+			</div>
+  		</div>
+  	</section>
+
+    	<footer>
+  		<div class="container">
+  			<nav class="navbar navbar-light bg-light container">
+			    <a class="navbar-brand logo-top" href="#">
+			    	<img src="{% static './img/Logo.png' %}" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+			    	Brand Name
+			    </a>
+	  			<div class="contact-top">
+	                <a class="whatsapp-number" href="https://web.whatsapp.com/"></a>
+	                <a class="telegram-number" href="https://t.me/"></a>
+	              	<a class="phone-number text-dark" href="tel:+74957777777">
+	              	<h5>+7(495)-777-77-77</h5></a>
+      			</div>
+			</nav>
+  		</div>
+  	    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
+ {% endblock %}

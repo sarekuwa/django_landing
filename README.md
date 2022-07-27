@@ -1,8 +1,11 @@
 # Django simple landing project
 
-### Для запуска требуется Postgresql >13 версии, и Python >3.9 версии.
+<b> Для запуска требуется Postgresql >13 версии, и Python >3.9 версии. </b>
 
-### Подключение к PostgreSQL прописывается в landing/settings.py файле.
+<b> Подключение к PostgreSQL прописывается в landing/settings.py файле.</b>
+
+
+<br></br>
 
 
 *Создаем виртуальную среду Python*

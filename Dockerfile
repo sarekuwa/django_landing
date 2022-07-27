@@ -1,6 +1,6 @@
 FROM python:3.9.13-bullseye
 WORKDIR /opt/app
-ADD corporate_portal/. .
+ADD . .
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
 		postgresql-client \
